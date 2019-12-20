@@ -27,29 +27,29 @@
 	
 	//gmaps
 	
-	$(document).ready(function() {	
-		if($('#map').length > 0){			
-			map = new GMaps({
-			  div: '#map',
-			  zoom: 16,
-			  lat: -12.043333,
-			  lng: -77.028333,
-			  infoWindow: {
-				  content: '<p>HTML Content</p>'
-				}
-			});
+	//$(document).ready(function() {	
+		//if($('#map').length > 0){			
+			//map = new GMaps({
+			  //div: '#map',
+			  //zoom: 16,
+			  //lat: 6.1229534,
+			  //lng: 106.9004475,
+			  //infoWindow: {
+				  //content: '<p>HTML Content</p>'
+				//}
+		//	});
 			
-			map.addMarker({
-			  lat: -12.043333,
-			  lng: -77.028333,
-			  title: 'Lima',
-			  infoWindow: {
-				  content: '<h5>Kepler Home Office</h5> <p> Silicon Valley California, USA</p> <p>Tel #: +123 456 789</p>'
-				}
-			});
+			//map.addMarker({
+			  //lat: 6.1229534,
+			  //lng: 106.9004475,
+			  //title: 'Lima',
+			  //infoWindow: {
+				  //content: '<h5>Kepler Home Office</h5> <p> Silicon Valley California, USA</p> <p>Tel #: +123 456 789</p>'
+			//	}
+			//});
 			
-		}	
-	});	
+		//}	
+//	});	
 
 	//prevent # links from moving to top
 	
