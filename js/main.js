@@ -83,10 +83,10 @@
 	$(document).ready(function() {	
 		if($('.business-banner').length > 0){
 			$(".business-banner").backstretch([
-			"images/dkb1.jpg"
+			 "images/dkb1.jpg"
 			, "images/dkb2.jpg"
 			, "images/dkb3.jpg"
-			, "images/dkb4.jpg"
+			, "images/lcl.jpg"
 			, "images/dkb5.jpg"
 			], {duration: 4000, fade: 1000});
 		 }	

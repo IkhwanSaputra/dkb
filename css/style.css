@@ -789,8 +789,8 @@ a:hover {
 }
 
 .testimonials img {
-	width: 42px;
-    height: 42px;
+	width: 100px;
+    height: 100px;
     float: left;
     margin-right: 20px;
 	border: 1px solid #fff;
@@ -837,8 +837,8 @@ a:hover {
 }
 
 .testimonials-two img.image {
-	width: 68px;
-    height: 68px;
+	width: 100px;
+    height: 100px;
     position: absolute;
     border: 2px solid #fff;
     left: 0%;
