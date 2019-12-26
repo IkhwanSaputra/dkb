@@ -34,6 +34,10 @@ a:hover {
 	transition: all 0.3s ease-in-out;
 }
 
+.asu{
+	color: #ffffff;
+}
+
 .btn i {
 	vertical-align: middle;
     padding-right: 5px;
@@ -2090,6 +2094,20 @@ a.password {
 	color:#ccc;
 }
 
+/* section dark */
+
+.section.green {
+	background:#111;
+	border-bottom:1px solid #004400;
+}
+
+.section.green hr {
+	border-top:1px solid #004400;
+}
+
+.section.green h1, .section.greenk h2, .section.green h3, .section.green h4, .section.green h5, .section.green h6{
+	color:#ccc;
+}
 
 /* modal */
 
@@ -2238,9 +2256,13 @@ a.password {
 	color:#2196F3;
 }
 
+#aboutus{
+	background-color: #000;
+}
 
-
-
+.text{
+	color:#ffffff;
+}
 
 
 
